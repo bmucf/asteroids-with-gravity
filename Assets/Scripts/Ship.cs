@@ -83,7 +83,7 @@ public class Ship : FloatingBody
 
         if (Input.GetKey(KeyCode.Space) && remainingFuel > 0)
         {
-            velocity += transform.up * acceleration * Time.deltaTime;
+            //velocity += transform.up * acceleration * Time.deltaTime;
             ConsumeFuel(Mathf.Pow(velocity.magnitude, 0.1f));
         }
 
@@ -95,7 +95,7 @@ public class Ship : FloatingBody
 
     public void RotationThrust()
     {
-        transform.Rotate(rotation * Time.deltaTime);
+        //transform.Rotate(rotation * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.Q) && remainingFuel != 0)
         {
@@ -104,7 +104,7 @@ public class Ship : FloatingBody
 
         if (Input.GetKey(KeyCode.Q) && remainingFuel > 0)
         {
-            rotation += Vector3.forward * rotateRate * Time.deltaTime;
+            //rotation += Vector3.forward * rotateRate * Time.deltaTime;
             ConsumeFuel(Mathf.Pow(velocity.magnitude, 0.1f));
         }
 
@@ -120,7 +120,7 @@ public class Ship : FloatingBody
 
         if (Input.GetKey(KeyCode.E) && remainingFuel > 0)
         {
-            rotation += Vector3.forward * -rotateRate * Time.deltaTime;
+            //rotation += Vector3.forward * -rotateRate * Time.deltaTime;
             ConsumeFuel(Mathf.Pow(velocity.magnitude, 0.1f));
         }
 
@@ -137,7 +137,7 @@ public class Ship : FloatingBody
         GameObject torpedoObj = Instantiate(torpedoPrefab, firePoint.position, firePoint.rotation); ;
         Torpedo torpedo = torpedoObj.GetComponent<Torpedo>();
         torpedo.SetOwner(this);
-        torpedo.velocity += velocity + (transform.up * 5);
+        //torpedo.velocity += velocity + (transform.up * 5);
 
         yield return new WaitForSeconds(fireRate);
         canFire = true;

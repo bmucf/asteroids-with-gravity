@@ -56,7 +56,7 @@ public class GravityManager : MonoBehaviour
                 float force = gravitation * (a.mass * b.mass) / (distance * distance);
                 Vector3 acceleration = direction * (force / a.mass);
 
-                a.velocity += acceleration * Time.deltaTime;
+                //a.velocity += acceleration * Time.deltaTime;
             }
         }
     }
@@ -65,7 +65,7 @@ public class GravityManager : MonoBehaviour
     {
         foreach (var body in attractors)
         {
-            body.transform.position += body.velocity * Time.deltaTime;
+            //body.transform.position += body.velocity * Time.deltaTime;
         }
     }
 }

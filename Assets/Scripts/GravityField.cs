@@ -28,7 +28,7 @@ public class GravityField : MonoBehaviour
 
         float forceMultiplier = gravConstant * ((affectedBody.mass * gravitySource.mass) / (distance * distance));
 
-        affectedBody.velocity += direction * forceMultiplier * Time.deltaTime;
+        //affectedBody.velocity += direction * forceMultiplier * Time.deltaTime;
 
         Debug.Log(affectedBody.velocity);
     }
