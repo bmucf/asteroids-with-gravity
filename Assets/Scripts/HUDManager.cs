@@ -17,9 +17,8 @@ public class HUDManager : MonoBehaviour
         fuelGauge.fillAmount = remainingFuel / maxFuel;
     }
 
-    public void UpdateArmorGauge(float remainingArmor, float totalArmor, float amount) 
+    public void UpdateArmorGauge(float remainingArmor, float maxArmor) 
     { 
-        remainingArmor = amount; 
-        armorGauge.fillAmount = remainingArmor / totalArmor;
+        armorGauge.fillAmount = remainingArmor / maxArmor;
     }
 }

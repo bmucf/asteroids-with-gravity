@@ -8,7 +8,7 @@ public class FloatingBody : MonoBehaviour
 
     [Header("Physical Properties")]
     [SerializeField] public float mass;
-    [SerializeField] protected float durability;
+    [SerializeField] public float durability;
 
     protected virtual void Update()
     {

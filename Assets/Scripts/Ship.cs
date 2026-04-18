@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Reflection;
 using Unity.VisualScripting;
+using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using static UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemDescriptor;
 
@@ -11,6 +12,7 @@ public class Ship : FloatingBody
     public ParticleSystem leftThruster;
     public ParticleSystem rightThruster;
     public GameObject torpedoPrefab;
+    public GameObject scoutPrefab;
 
     [SerializeField] public float remainingFuel;
     [SerializeField] private float maxFuel = 100;
@@ -19,8 +21,10 @@ public class Ship : FloatingBody
     public float rotateRate = 45;
     public Transform firePoint;
     bool canFire = true;
+    bool canScout = true;
     public float fireRate = 0.5f;
-
+    public int mult;
+    public bool counting;
 
     void Start()
     {
@@ -67,6 +71,18 @@ public class Ship : FloatingBody
         {
             StartCoroutine(Fire());
         }
+
+        //if (Input.GetMouseButton(1) && counting)
+        //{
+        //    StartCoroutine(MultCounter());
+        //}
+
+        //if (Input.GetMouseButtonUp(1) && canScout)
+        //{
+        //    StartCoroutine(Scout());
+        //    mult = 0;
+        //}
+
     }
 
     public void ConsumeFuel(float amount)
@@ -141,6 +157,26 @@ public class Ship : FloatingBody
 
         yield return new WaitForSeconds(fireRate);
         canFire = true;
+    }
+
+    IEnumerator Scout()
+    {
+        canScout = false;
+
+        GameObject scoutObj = Instantiate(scoutPrefab, firePoint.position, firePoint.rotation); ;
+        FloatingBody scout = scoutObj.GetComponent<FloatingBody>();
+        scout.velocity += velocity + (transform.up * mult);
+
+        yield return new WaitForSeconds(fireRate);
+        canScout = true;
+    }
+
+    IEnumerator MultCounter()
+    {
+        counting = false;
+        Debug.Log(mult);    
+        yield return new WaitForSeconds(0.25f);
+        counting = true;
     }
 }
 

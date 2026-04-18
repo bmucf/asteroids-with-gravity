@@ -7,6 +7,7 @@ public class Torpedo : FloatingBody
     private void Start()
     {
         owner = GetComponent<FloatingBody>();
+        durability = 1f;
     }
 
     protected override void Update()
@@ -22,6 +23,5 @@ public class Torpedo : FloatingBody
     {
         owner = ship;
     }
-
 
 }
