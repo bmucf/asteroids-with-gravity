@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < asteroidCount; ++i)
         {
             Instantiate(planetoid, RandomPointInRing(25, 100), Quaternion.identity);
+            planetoid.transform.localScale = Vector3.one * Random.Range(3, 7);
         }
 
         Instantiate(playerShip, transform.position, Quaternion.identity);

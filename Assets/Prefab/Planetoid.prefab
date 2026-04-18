@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8177151516781476029}
   - component: {fileID: 8999278400294223152}
   - component: {fileID: 8443353772423173133}
-  - component: {fileID: 183567493777506585}
-  - component: {fileID: 5834862801674325695}
+  - component: {fileID: 6662966014675202674}
+  - component: {fileID: 5198600098733772598}
   m_Layer: 0
   m_Name: Planetoid
   m_TagString: Untagged
@@ -111,7 +111,8 @@ MonoBehaviour:
   mass: 1
   durability: 0
   gravPrefab: {fileID: 5527482903759530317, guid: 437820387631b0e418b104277d1e338b, type: 3}
---- !u!58 &183567493777506585
+  explosion: {fileID: 402389468374186179, guid: 939ccd75eeff5734fa310243e51f1a39, type: 3}
+--- !u!58 &6662966014675202674
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,36 +142,22 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!50 &5834862801674325695
-Rigidbody2D:
-  serializedVersion: 5
+--- !u!114 &5198600098733772598
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6104647102862965798}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fef6c4b452504f4a8f08d6fe3537816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  explosion: {fileID: 0}

@@ -1,4 +1,3 @@
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class GravityField : MonoBehaviour
@@ -7,13 +6,10 @@ public class GravityField : MonoBehaviour
     public FloatingBody affectedBody;
     public FloatingBody gravitySource;
 
-    private void Start()
-    {
-        gravitySource = transform.parent.GetComponent<FloatingBody>();
-    }
-
     private void OnTriggerStay2D(Collider2D other)
     {
+        gravitySource = transform.parent.GetComponent<FloatingBody>();
+
         affectedBody = other.GetComponent<FloatingBody>();
 
         Vector3 direction = transform.position - other.transform.position;

@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fbb416e0ab74464b93325dce83250b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravity
-  detectedShip: {fileID: 0}
+  affectedBody: {fileID: 0}
   shipMovement: {fileID: 0}
   gravitySource: {fileID: 1964187256099508611}
   thisMass: 10
@@ -175,7 +175,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.38814, y: -19.67491, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6912173924881886845}
@@ -288,5 +288,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fef6c4b452504f4a8f08d6fe3537816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstacle
-  playerShip: {fileID: 0}
   explosion: {fileID: 402389468374186179, guid: 939ccd75eeff5734fa310243e51f1a39, type: 3}

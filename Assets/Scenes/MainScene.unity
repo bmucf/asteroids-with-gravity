@@ -292,9 +292,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   playerShip: {fileID: 8941292958485069384, guid: 620e4571db5a9eb48be28c13b67b8e59, type: 3}
-  planetoid: {fileID: 6104647102862965798, guid: f9fbba1128397144ab11b408849201f8, type: 3}
-  minAsteroid: 25
-  maxAsteroid: 50
+  planetoid: {fileID: 1964187256099508611, guid: 7d2485e1883e87c42955afe7a0cfb1ea, type: 3}
+  minAsteroid: 75
+  maxAsteroid: 100
   asteroidCount: 0
 --- !u!1 &343248795
 GameObject:

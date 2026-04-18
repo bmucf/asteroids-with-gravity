@@ -108,6 +108,7 @@ MonoBehaviour:
   gravConstant: 1
   affectedBody: {fileID: 0}
   gravitySource: {fileID: 0}
+  explosion: {fileID: 402389468374186179, guid: 939ccd75eeff5734fa310243e51f1a39, type: 3}
 --- !u!58 &-7067203555326490940
 CircleCollider2D:
   m_ObjectHideFlags: 0
