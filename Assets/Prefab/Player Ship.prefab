@@ -14689,6 +14689,7 @@ GameObject:
   - component: {fileID: 5291671264592780686}
   - component: {fileID: 4555425340878579954}
   - component: {fileID: 6991155252458546149}
+  - component: {fileID: 2992880955580393542}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Player
@@ -14879,3 +14880,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.75, y: 1.75}
   m_Direction: 0
+--- !u!114 &2992880955580393542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8941292958485069384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ec2f3d8354c1744b7a4633987f42a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Trajectory
+  marker: {fileID: 559481748280151937, guid: bcf9a04fa5f4c594b851a291ef47e006, type: 3}
