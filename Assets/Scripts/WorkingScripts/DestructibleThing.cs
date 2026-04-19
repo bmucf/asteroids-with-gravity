@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DestructibleThing : MonoBehaviour
@@ -13,6 +14,7 @@ public class DestructibleThing : MonoBehaviour
     //Optimization Changes
     bool loseMass = false;
     float loseMassTime = 0.5f;
+    float threshold = 120;
 
     private void Start()
     {
@@ -25,6 +27,8 @@ public class DestructibleThing : MonoBehaviour
         }
 
         transform.localScale = CalculateRadiusFromMass(rb.mass);
+
+
     }
 
     private void Update()
@@ -39,6 +43,10 @@ public class DestructibleThing : MonoBehaviour
         {
             loseMass = false;
             loseMassTime = 0.5f;
+        }
+        if (transform.position.y > threshold || transform.position.y < -threshold || transform.position.x > threshold || transform.position.x < -threshold)
+        {
+            Destroy(gameObject);
         }
     }
 

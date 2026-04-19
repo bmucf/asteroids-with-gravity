@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Projectile
   - Marker
+  - Boundary
   layers:
   - Default
   - TransparentFX

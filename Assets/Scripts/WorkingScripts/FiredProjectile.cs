@@ -7,9 +7,17 @@ public class FiredProjectile : MonoBehaviour
 
     //Optimization Change
     TestShip player;
+    float threshold = 120;
     private void Awake()
     {
         player = FindAnyObjectByType<TestShip>();
+    }
+    private void Update()
+    {
+        if (transform.position.y > threshold || transform.position.y < -threshold || transform.position.x > threshold || transform.position.x < -threshold)
+        {
+            player.ReturnObject(this.gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
