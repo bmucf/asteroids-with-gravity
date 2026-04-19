@@ -11,9 +11,7 @@ public class DestructibleThing : MonoBehaviour
 
     private float pi = Mathf.PI;
 
-    //Optimization Changes
-    bool loseMass = false;
-    float loseMassTime = 0.5f;
+    //Optimization Change
     float threshold = 120;
 
     private void Start()
@@ -34,20 +32,15 @@ public class DestructibleThing : MonoBehaviour
     private void Update()
     {
         //Optimization Changes
-        if (loseMass)
-        {
-            transform.localScale = CalculateRadiusFromMass(rb.mass);
-            loseMassTime -= Time.deltaTime;
-        }
-        if (loseMassTime <= 0)
-        {
-            loseMass = false;
-            loseMassTime = 0.5f;
-        }
         if (transform.position.y > threshold || transform.position.y < -threshold || transform.position.x > threshold || transform.position.x < -threshold)
         {
             Destroy(gameObject);
         }
+    }
+    //Optimization Changes
+    private void FixedUpdate()
+    {
+        transform.localScale = CalculateRadiusFromMass(rb.mass);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -69,7 +62,6 @@ public class DestructibleThing : MonoBehaviour
 
         float chunkMass = Random.Range(minChunkMass, rb.mass * 0.25f);
         rb.mass -= chunkMass;
-        loseMass = true;
 
         GameObject chunk = Instantiate(gameObject, collisionPoint.point, Quaternion.identity);
 
