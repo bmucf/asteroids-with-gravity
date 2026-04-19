@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class TestShip : MonoBehaviour
@@ -26,6 +27,9 @@ public class TestShip : MonoBehaviour
     public GameObject slug;
     public float fireRate = 1f;
     bool canFire = true;
+
+    //Optimization Changes
+    private Queue<GameObject> pool = new Queue<GameObject>();
 
     public void Start()
     {
@@ -152,8 +156,14 @@ public class TestShip : MonoBehaviour
     {
         canFire = false;
 
-        GameObject newSlug = Instantiate(slug, firePoint.position, firePoint.rotation);
+        //Optimization Change
+        GameObject newSlug = GetObject(); //Instantiate(slug, firePoint.position, firePoint.rotation);
+
         Rigidbody2D firedSlug = newSlug.GetComponent<Rigidbody2D>();
+
+        //Optimization Change
+        firedSlug.transform.position = transform.position;
+        firedSlug.transform.rotation = transform.rotation;
 
         firedSlug.linearVelocity = shipRB.linearVelocity;
 
@@ -187,4 +197,22 @@ public class TestShip : MonoBehaviour
         }
     }
 
+    #region Optimizations
+    public GameObject GetObject()
+    {
+        if (pool.Count > 0)
+        {
+            GameObject obj = pool.Dequeue();
+            obj.SetActive(true);
+            return obj;
+        }
+        return Instantiate(slug);
+    }
+
+    public void ReturnObject(GameObject obj)
+    {
+        obj.SetActive(false);
+        pool.Enqueue(obj);
+    }
+    #endregion
 }
