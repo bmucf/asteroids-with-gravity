@@ -42,5 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 1 Background
+    uniqueID: 2244313425
+    locked: 0
+  - name: '2 Far Plane '
+    uniqueID: 690954141
+    locked: 0
+  - name: 3 Mid Plane
+    uniqueID: 3824124171
+    locked: 0
+  - name: 4 Fore Plane
+    uniqueID: 3390980489
+    locked: 0
+  - name: 5 Playable
+    uniqueID: 3760213047
+    locked: 0
   m_RenderingLayers:
   - Default
