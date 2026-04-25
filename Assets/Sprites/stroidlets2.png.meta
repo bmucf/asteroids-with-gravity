@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 78ad1d9d64253e347a31a12dabf2f0b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9095817375196203821
+    second: stroidlets2_0
+  - first:
+      213: 4138815303109695884
+    second: stroidlets2_1
+  - first:
+      213: 3444183997426115420
+    second: stroidlets2_2
+  - first:
+      213: 3347717305809228956
+    second: stroidlets2_3
+  - first:
+      213: 6123676084532901830
+    second: stroidlets2_4
+  - first:
+      213: 2627018542167229022
+    second: stroidlets2_5
+  - first:
+      213: -5973918747261473159
+    second: stroidlets2_6
+  - first:
+      213: 8108328554012808154
+    second: stroidlets2_7
+  - first:
+      213: 1314916122833720321
+    second: stroidlets2_8
+  - first:
+      213: -8685937750640700727
+    second: stroidlets2_9
+  - first:
+      213: 4791366057761354558
+    second: stroidlets2_10
+  - first:
+      213: 5634352189204693981
+    second: stroidlets2_11
+  - first:
+      213: -7990876088007816781
+    second: stroidlets2_12
+  - first:
+      213: -4628909297529794977
+    second: stroidlets2_13
+  - first:
+      213: 1641373484143879784
+    second: stroidlets2_14
+  - first:
+      213: -4518122527881003907
+    second: stroidlets2_15
+  - first:
+      213: -7557722924424415387
+    second: stroidlets2_16
+  - first:
+      213: 7625639339379106417
+    second: stroidlets2_17
+  - first:
+      213: -4074251469439460600
+    second: stroidlets2_18
+  - first:
+      213: -7146583659386589275
+    second: stroidlets2_19
+  - first:
+      213: -5497835473808056255
+    second: stroidlets2_20
+  - first:
+      213: 9067264748216193564
+    second: stroidlets2_21
+  - first:
+      213: -2174295219269073657
+    second: stroidlets2_22
+  - first:
+      213: -4463908220233280502
+    second: stroidlets2_23
+  - first:
+      213: -7154849730532290793
+    second: stroidlets2_24
+  - first:
+      213: 64754586382940120
+    second: stroidlets2_25
+  - first:
+      213: -3822723839401668335
+    second: stroidlets2_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stroidlets2_0
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 847
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4ba99f94a25c180800000000000000
+      internalID: -9095817375196203821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_1
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 840
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89ddccf696007930800000000000000
+      internalID: 4138815303109695884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_2
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 872
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c532babf8133ccf20800000000000000
+      internalID: 3444183997426115420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_3
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 832
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94df25172b757e20800000000000000
+      internalID: 3347717305809228956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_4
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 802
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7732a44faabf450800000000000000
+      internalID: 6123676084532901830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_5
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 784
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e520e30127b057420800000000000000
+      internalID: 2627018542167229022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_6
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 708
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97eee60fc80681da0800000000000000
+      internalID: -5973918747261473159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_7
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 623
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad317103cd1968070800000000000000
+      internalID: 8108328554012808154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_8
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 591
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10410fa3f358f3210800000000000000
+      internalID: 1314916122833720321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_9
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 586
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2d7e7c2a9557780800000000000000
+      internalID: -8685937750640700727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_10
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 542
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33bab53b0a5e7240800000000000000
+      internalID: 4791366057761354558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_11
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 523
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd38df8c67d313e40800000000000000
+      internalID: 5634352189204693981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_12
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 526
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b981221984ba1190800000000000000
+      internalID: -7990876088007816781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 466
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ecb37d48fc2cfb0800000000000000
+      internalID: -4628909297529794977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 467
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866242acc7457c610800000000000000
+      internalID: 1641373484143879784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_15
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 410
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c76f9bf776c41c0800000000000000
+      internalID: -4518122527881003907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_16
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 414
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5673bd2fa039d1790800000000000000
+      internalID: -7557722924424415387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_17
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 351
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172afe8a396b3d960800000000000000
+      internalID: 7625639339379106417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_18
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 373
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b9276ffd95577c0800000000000000
+      internalID: -4074251469439460600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_19
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 289
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afa6a8a60c32dc90800000000000000
+      internalID: -7146583659386589275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_20
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 301
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140212ee3c3c3b3b0800000000000000
+      internalID: -5497835473808056255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_21
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 279
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1219d18f3565dd70800000000000000
+      internalID: 9067264748216193564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_22
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 255
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70503aa940a53d1e0800000000000000
+      internalID: -2174295219269073657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_23
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 192
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a049c0fdf130d02c0800000000000000
+      internalID: -4463908220233280502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_24
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 229
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fc25ef31ed4bc90800000000000000
+      internalID: -7154849730532290793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_25
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 21
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7bee604fd06e000800000000000000
+      internalID: 64754586382940120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroidlets2_26
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 30
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111db06fbe4f2fac0800000000000000
+      internalID: -3822723839401668335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stroidlets2_0: -9095817375196203821
+      stroidlets2_1: 4138815303109695884
+      stroidlets2_10: 4791366057761354558
+      stroidlets2_11: 5634352189204693981
+      stroidlets2_12: -7990876088007816781
+      stroidlets2_13: -4628909297529794977
+      stroidlets2_14: 1641373484143879784
+      stroidlets2_15: -4518122527881003907
+      stroidlets2_16: -7557722924424415387
+      stroidlets2_17: 7625639339379106417
+      stroidlets2_18: -4074251469439460600
+      stroidlets2_19: -7146583659386589275
+      stroidlets2_2: 3444183997426115420
+      stroidlets2_20: -5497835473808056255
+      stroidlets2_21: 9067264748216193564
+      stroidlets2_22: -2174295219269073657
+      stroidlets2_23: -4463908220233280502
+      stroidlets2_24: -7154849730532290793
+      stroidlets2_25: 64754586382940120
+      stroidlets2_26: -3822723839401668335
+      stroidlets2_3: 3347717305809228956
+      stroidlets2_4: 6123676084532901830
+      stroidlets2_5: 2627018542167229022
+      stroidlets2_6: -5973918747261473159
+      stroidlets2_7: 8108328554012808154
+      stroidlets2_8: 1314916122833720321
+      stroidlets2_9: -8685937750640700727
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
